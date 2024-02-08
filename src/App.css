@@ -1,0 +1,99 @@
+.nav {
+  padding: 10px;
+  background-color: #444c52;
+
+  .ant-menu {
+    background-color: #444c52;
+    border: none;
+    justify-content: space-between;
+    width: 100%;
+
+    .ant-menu-item {
+      color: white;
+      font-size: 14px;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  :where(.css-dev-only-do-not-override-1rqnfsa).ant-menu-light .ant-menu-item:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected):hover {
+    color: #fff;
+  }
+
+  :where(.css-dev-only-do-not-override-1rqnfsa).ant-menu-light .ant-menu-item-selected {
+    background-color: #444c52;
+  }
+
+  display: flex;
+
+  .ant-avatar {
+    border: 2px solid #fff;
+  }
+
+  .text-e {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0 18px;
+  }
+}
+
+.footer {
+  text-align: center;
+  background-color: #444c52;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+
+  >div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p,
+  a {
+    margin-right: 10px;
+    color: white;
+  }
+
+}
+
+.signup {
+  .form-container {
+    margin: auto;
+    width: 900px;
+  }
+
+  .input-field {
+    margin-bottom: 16px;
+  }
+
+  :global {
+    .ant-form-item-row {
+      width: 900px;
+    }
+  }
+}
+
+.ant-form-item-label>label {
+  width: 100px;
+}
+
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-menu-light .ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-menu-light .ant-menu-submenu-selected>.ant-menu-submenu-title {
+  color: #fff;
+  font-size: 14px;
+}
+.search-container{
+ display: flex;
+ justify-content: end;
+  :where(.css-dev-only-do-not-override-1rqnfsa).ant-input-group-wrapper{
+    width: 250px;
+  }
+}
